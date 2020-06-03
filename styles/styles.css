@@ -1,0 +1,103 @@
+html {
+	background: #e8f1f5;
+}
+
+body {
+	font-family: Numans, sans-serif;
+	background: #e8f1f5;
+	max-width: 1000px;
+	margin: 0 auto;
+	color: #004a7c;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	line-height: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: #dadada;
+}
+
+.price {
+	color: orangered;
+	font-weight: bolder;
+}
+
+.title {
+	font-weight: bold;
+	color: #004a7c;
+}
+header,
+footer {
+	background-color: #005691;
+	color: #e8f1f5;
+}
+
+/* #map {
+	box-align: center;
+} */
+
+.products {
+	box-sizing: border-box;
+	/* border: 1px solid grey; */
+	width: 200px;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	display: inline-block;
+}
+
+img {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	display: block;
+	height: 230px;
+	width: 150px;
+}
+
+header li {
+	display: inline;
+}
+
+header h1 {
+	display: inline-block;
+	padding-left: 10px;
+}
+nav {
+	display: inline-block;
+}
+
+footer li {
+	padding-left: 10px;
+}
+
+main {
+	width: 680px;
+	display: inline-block;
+	padding: 10px;
+}
+
+aside {
+	width: 270px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+}
+
+.button {
+	padding: 10px;
+	display: inline-block;
+}

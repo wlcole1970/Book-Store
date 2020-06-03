@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Numans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+
+    <!-- header with navigation bar -->
+<header>
+        <h1>Simulcra Book Store </h1>
+        <nav>
+        <ul>
+            <li> 
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="#link">Shop</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact Us</a> 
+            </li>
+        </ul>
+    </nav>
+    <input type="search" placeholder="Search">
+        </header>
+
+        <!--sidebar -->
+<aside>
+    <h2>Shop by:</h2>
+    <section>
+        <h3>Category</h3>
+    <hr>
+    <ul>
+        <li> <a href="#link">All Items</a> </li>
+        <li>Books</li>
+        <li>Gifts</li>
+        <li>Audiobooks</li>
+        <li>eBooks</li>
+        <li>Book Accessories</li>
+    </ul>
+    </section>
+    
+    <h3>Price <span>($)</span> </h3>
+    <section>
+        <hr>
+        <ul>
+            <li>$1 - $9</li>
+            <li>$10 - $29</li>
+            <li>$30 - $59</li>
+            <li>$60 - $99</li>
+            <li>$100+</li>
+        </ul>
+    </section>
+    
+</aside>
+<!-- main section of display -->
+<main>
+    <h2 id="link">Contact Us</h2>
+
+    <form action="" method="">
+
+    <div> <label for="name">name (required):</label>: <input type="text" placeholder="enter your name" id="name" name="name"></div>
+
+    <div> <label for="email">email (required):</label> <input type="email" placeholder="enter your email" id="email" name="email"></div>
+
+    <div><label for="message">message:</label><textarea cols="30" rows="5" id="message" name="message"></textarea></div>
+
+    <div>
+        <label for="subject">Subject</label>
+        <select id="subject">
+
+        <optgroup label="Product Issues">
+        <option value="returns">Returns</option>    
+        <option value="damaged">Damaged Item</option> 
+        </optgroup>
+        
+        <optgroup label="Delivery">
+            <option value="delivery">Delivery Info </option>
+        <option value="order_tracking">Track Your Order</option> 
+        </optgroup>
+        
+        <optgroup label="Other">
+        <option value="advice">Advice</option>  
+        <option value="other">Other</option> 
+        </optgroup>
+
+        </select>
+    </div>
+    <!-- <div>
+        <label for="subject">Subject:</label>
+        <input type="text" list="subjects" id="subject" placeholder="Enter your subject">
+        <datalist id="subjects">
+            <option value="returns"></option>
+            <option value="damaged"></option>
+            <option value="delivery"></option>
+            <option value="advice"></option>
+            <option value="other"></option>
+        </datalist>
+    </div> -->
+<div>
+    <p>Subscribe for Future Offers by:</p>
+    <label for="newsletter">newsletter</label>
+    <input type="checkbox" id="newsletter" name="subscribe" value="newsletter">
+
+    <label for="email">email</label>
+    <input type="checkbox" id="email" name="subscribe"  value="email">
+
+    <label for="post">Post</label>
+    <input type="checkbox" id="post" name="subscribe"  value="post">
+</div>
+<div>
+    <p>How would You Like Us to Respond?</p>
+    <label for="phoneResponse">Phone</label>
+    <input type="radio" id="phoneResponse" name="response" value="phone">
+    <label for="emailResponse">Email</label>
+    <input type="radio" id="emailResponse" name="response" value="email">
+</div>
+
+<div>
+    <input type="submit">
+    <input type="reset">
+</div id='map'>
+    </form>
+    <iframe
+    width="600"
+    height="450"
+    frameborder="0" style="border:0"
+    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCyiloYoV303sgisw9hhbmKEfTV2d1oXxM
+      &q=Space+Needle,Seattle+WA" allowfullscreen>
+  </iframe>
+</main>
+
+<!-- footer -->
+   <footer>
+       <nav>
+        <ul>
+            <li>
+             <a href="index.html">Home</a>
+            </li>
+            <li><a href="#link">Shop</a></li>
+            <li> <a href="contact.html">Contact Us</a></li>
+        </ul>
+       </nav>
+
+       <section>
+           <p>created by <a href="https://www.waltercole.com/">cole media</a></p>
+       </section>
+   </footer>
+</body>
+</html>
