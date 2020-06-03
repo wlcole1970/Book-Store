@@ -101,3 +101,19 @@ aside {
 	padding: 10px;
 	display: inline-block;
 }
+
+.button:last-of-type {
+	background-color: #005691;
+	color: #dadada;
+	border-radius: 10px;
+}
+
+/* product detail page */
+.product_detail {
+	width: 660px;
+}
+
+.product_detail img {
+	max-width: 50%;
+	float: left;
+}
