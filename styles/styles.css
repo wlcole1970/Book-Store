@@ -44,6 +44,9 @@ footer {
 	color: #e8f1f5;
 }
 
+header a {
+	align-items: right;
+}
 /* #map {
 	box-align: center;
 } */
@@ -95,6 +98,9 @@ aside {
 	display: inline-block;
 	vertical-align: top;
 	padding: 10px;
+	position: sticky;
+	top: 10px;
+	left: 10px;
 }
 
 .button {
@@ -116,4 +122,27 @@ aside {
 .product_detail img {
 	max-width: 50%;
 	float: left;
+}
+
+/* contact us page */
+
+form {
+	padding: 10px;
+	margin: 10px;
+	width: 600px;
+}
+
+form > div {
+	margin: 10px;
+}
+.inline label {
+	display: inline-block;
+	width: 100px;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+	padding: 10px;
+	width: 400px;
 }
