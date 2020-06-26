@@ -5,9 +5,11 @@ html {
 
 body {
 	font-family: Numans, sans-serif;
-	background: #e8f1f5;
+	/* background: #e8f1f5; */
+	background: #e3d9ca;
 	margin: 0 auto;
-	color: #004a7c;
+	/* color: #004a7c; */
+	color: #403f48;
 	text-align: center;
 }
 
@@ -37,11 +39,13 @@ a:hover {
 
 .title {
 	font-weight: bold;
-	color: #004a7c;
+	/* color: #004a7c; */
+	color: #596c68;
 }
 header,
 footer {
-	background-color: #005691;
+	/* background-color: #005691; */
+	background-color: #95a792;
 	color: #e8f1f5;
 	padding: 30px 10px;
 }
@@ -111,7 +115,8 @@ footer li {
 }
 
 .button:last-of-type {
-	background-color: #005691;
+	/* background-color: #005691; */
+	background-color: #596c68;
 	color: #dadada;
 	border-radius: 10px;
 }
@@ -122,12 +127,17 @@ footer li {
 /* product detail page */
 .product_detail {
 	width: 660px;
+	text-align: center;
 }
 
 .product_detail img {
 	max-width: 50%;
 	float: left;
 }
+
+/* .description {
+	text-align: center;
+} */
 
 /* contact us page */
 
