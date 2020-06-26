@@ -1,13 +1,14 @@
 html {
 	background: #e8f1f5;
+	font: 16px;
 }
 
 body {
 	font-family: Numans, sans-serif;
 	background: #e8f1f5;
-	max-width: 1000px;
 	margin: 0 auto;
 	color: #004a7c;
+	text-align: center;
 }
 
 ul {
@@ -45,6 +46,17 @@ footer {
 	padding: 30px 10px;
 }
 
+header {
+	border-radius: 0 0 10px 10px;
+}
+
+footer {
+	border-radius: 10px 10px 0 0;
+}
+input[type="search"] {
+	width: 100%;
+}
+
 header a {
 	align-items: right;
 }
@@ -55,11 +67,12 @@ header a {
 .products {
 	box-sizing: border-box;
 	/* border: 1px solid grey; */
-	width: 200px;
+	/* width: 30%; */
+	width: 100%;
 	text-align: center;
 	margin: 5px;
 	padding: 5px;
-	display: inline-block;
+	/* display: inline-block; */
 }
 
 img {
@@ -86,26 +99,10 @@ nav {
 } */
 
 header h1 {
-	width: 70%;
+	width: 100%;
 }
 footer li {
 	padding-left: 10px;
-}
-
-main {
-	width: 680px;
-	display: inline-block;
-	padding: 10px;
-}
-
-aside {
-	width: 270px;
-	display: inline-block;
-	vertical-align: top;
-	padding: 10px;
-	position: sticky;
-	top: 10px;
-	left: 10px;
 }
 
 .button {
@@ -172,6 +169,7 @@ th,
 td {
 	padding: 10px;
 	border: none;
+	text-align: left;
 }
 
 tr:hover {
