@@ -131,8 +131,8 @@ footer li {
 }
 
 .product_detail img {
-	max-width: 50%;
-	float: left;
+	/* max-width: 60%; */
+	/* float: left; */
 }
 
 /* .description {
