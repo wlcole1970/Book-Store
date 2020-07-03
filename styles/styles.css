@@ -114,9 +114,14 @@ footer li {
 	padding-left: 10px;
 }
 
+
 .button {
 	padding: 10px;
 	display: inline-block;
+}
+
+.btn {
+	color: #403f48;
 }
 
 .button:last-of-type {
@@ -130,29 +135,32 @@ footer li {
 	color: white;
 }
 
+.form-group {}
+
 /* product detail page */
 .product_detail {
 	width: auto;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
+
 }
 
-/* .flex-container {
-	display: flex;
 
-	justify-content: center;
-	align-items: center;
-} */
-
-.product_detail img {
-	/* max-width: 60%; */
-	/* float: left; */
+.product_detail .button {
+	margin-bottom: 10px;
 }
 
-.description {
+/* align and center text in parent div */
+
+.product_detail .description {
+	width: 50%;
 	text-align: justify;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
 }
+
 
 /* contact us page */
 
