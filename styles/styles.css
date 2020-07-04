@@ -5,11 +5,8 @@ html {
 
 body {
 	font-family: Numans, sans-serif;
-	/* background: #e8f1f5; */
-	/* background: #e3d9ca; */
 	background: #f4f6ff;
 	margin: 0 auto;
-	/* color: #004a7c; */
 	color: #403f48;
 	text-align: center;
 }
@@ -40,13 +37,11 @@ a:hover {
 
 .title {
 	font-weight: bold;
-	/* color: #004a7c; */
 	color: #596c68;
 }
 
 header,
 footer {
-	/* background-color: #005691; */
 	background-color: #95a792;
 	color: #e8f1f5;
 	padding: 30px 10px;
@@ -70,9 +65,6 @@ header a {
 	align-items: right;
 }
 
-/* #map {
-	box-align: center;
-} */
 .picks {
 	background: #e3d9ca;
 	border-radius: 20px;
@@ -81,16 +73,15 @@ header a {
 aside {
 	background: #e3d9ca;
 	border-radius: 20px;
+	margin-left: 5px;
 }
+
 .products {
 	box-sizing: border-box;
-	/* border: 1px solid grey; */
-	/* width: 30%; */
 	width: 100%;
 	text-align: center;
 	margin: 5px;
 	padding: 5px;
-	/* display: inline-block; */
 }
 
 img {
@@ -110,12 +101,8 @@ header li {
 header h1,
 nav {
 	display: inline-block;
-	/* padding-left: 10px; */
 }
 
-/* nav {
-	display: inline-block;
-} */
 
 header h1 {
 	width: 100%;
@@ -135,7 +122,7 @@ footer li {
 }
 
 .button:last-of-type {
-	/* background-color: #005691; */
+
 	background-color: #596c68;
 	color: #dadada;
 	border-radius: 10px;
@@ -154,6 +141,20 @@ footer li {
 	background: #e3d9ca;
 	border-radius: 10px;
 	padding-top: 5px;
+	margin-right: 5px;
+}
+
+.contact {
+	background: #e3d9ca;
+	border-radius: 10px;
+	padding-top: 5px;
+	margin-right: 5px;
+}
+
+.contact .map {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .product_detail .button {
@@ -178,7 +179,7 @@ form {
 	width: 600px;
 }
 
-form > div {
+form>div {
 	margin: 10px 0;
 }
 
