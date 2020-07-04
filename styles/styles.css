@@ -40,17 +40,24 @@ a:hover {
 	color: #596c68;
 }
 
-header,
-footer {
-	background-color: #95a792;
-	color: #e8f1f5;
-	padding: 30px 10px;
-}
-
 header {
 	border-radius: 10px;
 	margin: 5px;
 }
+
+header input {
+	align-content: right;
+
+}
+
+header,
+footer {
+	background-color: #95a792;
+	color: #e8f1f5;
+	padding: 10px 10px;
+}
+
+
 
 footer {
 	border-radius: 10px;
@@ -59,6 +66,7 @@ footer {
 
 input[type="search"] {
 	width: 100%;
+	outline: none;
 }
 
 header a {
@@ -67,12 +75,12 @@ header a {
 
 .picks {
 	background: #e3d9ca;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 aside {
 	background: #e3d9ca;
-	border-radius: 20px;
+	border-radius: 10px;
 	margin-left: 5px;
 }
 
@@ -112,13 +120,45 @@ footer li {
 	padding-left: 10px;
 }
 
+
+.logon {
+	padding: 5px;
+}
+
+/* inputs */
+
+.logon .email {
+	width: 153px;
+	height: 19px;
+	outline: none;
+	padding: 1px 2px;
+}
+
+input[type=password] {
+	outline: none;
+	width: 153px;
+	height: 19px;
+	outline: none;
+	padding: 1px 2px;
+}
+
+/* buttons  */
+.btn {
+	color: #403f48;
+}
+
+button {
+	font-family: Numans, sans-serif;
+	color: #403f48;
+	background-color: #596c68;
+	border: none;
+	color: #dadada;
+
+}
+
 .button {
 	padding: 10px;
 	display: inline-block;
-}
-
-.btn {
-	color: #403f48;
 }
 
 .button:last-of-type {
@@ -133,6 +173,7 @@ footer li {
 }
 
 /* product detail page */
+
 .product_detail {
 	width: auto;
 	text-align: center;
@@ -177,10 +218,6 @@ form {
 	padding: 10px;
 	margin: 10px;
 	width: 600px;
-}
-
-form>div {
-	margin: 10px 0;
 }
 
 .inline label {

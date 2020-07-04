@@ -8,6 +8,7 @@
 		display: inline-block;
 		width: 30%;
 	}
+
 }
 
 @media (min-width: 1000px) {
@@ -29,10 +30,11 @@
 		display: inline-block;
 		padding: 10px;
 		font-size: 12px;
+		margin-right: 10px;
 	}
 
 	aside {
-		width: 27%;
+		width: 25%;
 		display: inline-block;
 		vertical-align: top;
 		padding: 10px;
@@ -40,6 +42,10 @@
 		top: 10px;
 		left: 10px;
 	}
+
+	/* .logon {
+		margin-left: 500px;
+	} */
 }
 
 @media (min-width: 1400px) {
@@ -54,5 +60,12 @@
 	input[type="search"] {
 		width: 20%;
 		margin-left: 2em;
+	}
+}
+
+@media (max-width: 800px) {
+	#class_submit {
+		margin-top: 5px;
+		color: #dadada;
 	}
 }
