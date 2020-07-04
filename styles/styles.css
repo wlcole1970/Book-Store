@@ -92,6 +92,13 @@ aside {
 	padding: 5px;
 }
 
+.products img:hover {
+
+	height: 300px;
+	width: 220px;
+
+}
+
 img {
 	max-width: 100%;
 	margin-left: auto;
