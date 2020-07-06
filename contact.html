@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Numans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="stylesheet" type="text/css" href="styles/mediastyles.css">
+    <script src="https://kit.fontawesome.com/8c05229a58.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,37 +33,125 @@
         <button id="class_submit">submit</button>
         <hr>
         <div class="logon">
-            <label for="email">email:</label> <input class='email' type='email' placeholder='enter your email'>
-            <label for="password">password:</label> <input type="password" placeholder="enter your password">
-            <button id="class_submit">submit</button>
+            <div>
+                <span>sign-in /sign-up </span>
+                <label for="email"> email:</label> <input class='email' type='email' placeholder='enter your email'>
+                <label for="password">password:</label> <input type="password" placeholder="enter your password">
+                <button id="class_submit">submit</button>
+            </div>
+            <div class='icons'>
+                <ul>
+                    <li>
+                        <i class="fab fa-facebook"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-instagram"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-twitter"></i>
+                    </li>
+                </ul>
+                <!-- <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i> -->
+            </div>
         </div>
     </header>
+    <hr>
+    <!-- drop down menu  -->
+    <div class="drop">
+        <div class="dropdown">
+            <button class="dropbtn">Shop by Categories</button>
+            <div class="dropdown-content">
+                <a href="#">Autobiography</a>
+                <a href="#">Biography</a>
+                <a href="#">Philosophy</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Books</button>
+            <div class="dropdown-content">
+                <a href="#">Autobiography</a>
+                <a href="#">Biography</a>
+                <a href="#">Philosophy</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">eBooks</button>
+            <div class="dropdown-content">
+                <a href="#">Autobiography</a>
+                <a href="#">Biography</a>
+                <a href="#">Philosophy</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Teens/Kids</button>
+            <div class="dropdown-content">
+                <a href="#">Autobiography</a>
+                <a href="#">Biography</a>
+                <a href="#">Philosophy</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Gifts</button>
+            <div class="dropdown-content">
+                <a href="#">Autobiography</a>
+                <a href="#">Biography</a>
+                <a href="#">Philosophy</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Rare & Collectible</button>
+            <div class="dropdown-content">
+                <a href="#">Autobiography</a>
+                <a href="#">Biography</a>
+                <a href="#">Philosophy</a>
+            </div>
+        </div>
+        <div>
+            <!-- <span>
+                <ul>
+                    <li>Books</li>
+                    <li>eBooks</li>
+                    <li>Magazines</li>
+                    <li>Gifts</li>
+                    <li>Teens/Kids</li>
+                    <li>Rare & Collectible</li>
+                </ul>
+            </span> -->
+        </div>
+    </div>
+    <hr>
+
+    <div class="millions">
+        <h4>Over 5 millions books for sale and shipped in one hour</h4>
+    </div>
 
     <!--sidebar -->
     <aside>
-        <h2>Shop by:</h2>
-        <section>
-            <h3>Category</h3>
-            <hr>
-            <ul>
-                <li> <a href="#link">All Items</a> </li>
-                <li>Books</li>
-                <li>Gifts</li>
-                <li>Audiobooks</li>
-                <li>eBooks</li>
-                <li>Book Accessories</li>
-            </ul>
-        </section>
 
-        <h3>Price <span>($)</span> </h3>
         <section>
-            <hr>
+            <h3>This Weeks Bestseller:</h3>
+            <div class="bestsell">
+                <a href="product_page.html"> <img src="assets/ladylake.jpeg" alt="book image" width='100'></a>
+                <a href='product_page.html'>
+                    <p class="title">Lady in the Lake <br>Laura Lippman</p>
+                </a>
+                <p class='price'>$34.95</p>
+
+                <a href="" class="button">Add to Cart</a>
+            </div>
+
+        </section>
+        <hr>
+        <h4>Upcoming In Store Events: <br>
+            <span></span> </h4>
+        <section>
+
             <ul>
-                <li>$1 - $9</li>
-                <li>$10 - $29</li>
-                <li>$30 - $59</li>
-                <li>$60 - $99</li>
-                <li>$100+</li>
+                <li><strong>- July 8 -</strong> Burning Down The House - Julian Zelizer</li>
+                <li><strong>- July 13 - </strong> The Party Upstairs - Lee Conell</li>
+                <li><strong>- July 15 - </strong>The Runaways - Fatima Bhutto</li>
             </ul>
         </section>
 

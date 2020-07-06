@@ -38,15 +38,12 @@
 		display: inline-block;
 		vertical-align: top;
 		padding: 10px;
-		position: sticky;
+		/* position: sticky; */
 		top: 10px;
 		left: 10px;
 		margin-right: 10px;
 	}
 
-	/* .logon {
-		margin-left: 500px;
-	} */
 }
 
 @media (min-width: 1400px) {

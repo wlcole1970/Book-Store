@@ -9,6 +9,12 @@ body {
 	margin: 0 auto;
 	color: #403f48;
 	text-align: center;
+	overflow-x: hidden;
+}
+
+hr {
+	color: black;
+	width: 90%;
 }
 
 ul {
@@ -19,6 +25,11 @@ ul {
 li {
 	list-style: none;
 	line-height: 25px;
+	font-size: .8rem;
+}
+
+strong {
+	color: tomato;
 }
 
 a {
@@ -30,8 +41,19 @@ a:hover {
 	color: #dadada;
 }
 
+.icons {
+	margin-left: 400px;
+	display: inline-block;
+
+
+}
+
+.millions {
+	text-align: center;
+}
+
 .price {
-	color: orangered;
+	color: tomato;
 	font-weight: bolder;
 }
 
@@ -40,15 +62,18 @@ a:hover {
 	color: #596c68;
 }
 
+.bestsell {
+	font-size: .8rem;
+	text-align: center;
+}
+
 header {
 	border-radius: 10px;
 	margin: 5px;
-
 }
 
 header input {
 	align-content: right;
-
 }
 
 header,
@@ -57,18 +82,6 @@ footer {
 	color: #e8f1f5;
 	padding: 10px 10px;
 }
-
-.drop {
-	background-color: #e8f1f5;
-	/* color: #e8f1f5; */
-	padding: 10px 10px;
-	width: 100%;
-	height: 50px;
-	margin: 10px 10px;
-
-}
-
-
 
 footer {
 	border-radius: 10px;
@@ -85,14 +98,19 @@ header a {
 }
 
 .picks {
-	background: #e3d9ca;
+	background: #d8d4c5;
 	border-radius: 10px;
 }
 
 aside {
-	background: #e3d9ca;
+	/* background: #e7e6e3; */
+	background: #e7e6e3;
 	border-radius: 10px;
 	margin-left: 5px;
+}
+
+aside h2 {
+	font-size: .9rem;
 }
 
 .products {
@@ -105,11 +123,10 @@ aside {
 }
 
 .products img:hover {
-
-	height: 300px;
-	width: 220px;
-	/* -webkit-transform: scale(2, 2) */
-
+	/* height: 300px; */
+	/* width: 220px; */
+	position: relative;
+	top: -5px;
 }
 
 img {
@@ -131,7 +148,6 @@ nav {
 	display: inline-block;
 }
 
-
 header h1 {
 	width: 100%;
 }
@@ -140,9 +156,12 @@ footer li {
 	padding-left: 10px;
 }
 
-
 .logon {
 	padding: 5px;
+	/* flex: auto;
+	flex-direction: row; */
+	display: flex;
+	justify-content: left;
 }
 
 /* inputs */
@@ -173,7 +192,6 @@ button {
 	background-color: #596c68;
 	border: none;
 	color: #dadada;
-
 }
 
 .button {
@@ -182,7 +200,6 @@ button {
 }
 
 .button:last-of-type {
-
 	background-color: #596c68;
 	color: #dadada;
 	border-radius: 10px;
@@ -206,10 +223,11 @@ button {
 }
 
 .contact {
-	background: #e3d9ca;
+	background: #e7e6e3;
 	border-radius: 10px;
 	padding-top: 5px;
 	margin-right: 5px;
+
 }
 
 .contact .map {
@@ -284,29 +302,41 @@ tr:hover {
 
 /* drop down  */
 
+.drop {
+	background-color: #f4f6ff;
+	/* display: inline-block;
+	position: relative;
+	align-items: baseline; */
+	padding: 10px 10px;
+	width: 95%;
+	height: 50px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
 .dropbtn {
-	background-color: #596c68;
-	color: #dadada;
+	background-color: #f4f6ff;
+	color: #403f48;
 	padding: 10px;
 	font-size: 12px;
 	border: none;
 	cursor: pointer;
-	height: 50px;
+	height: 30px;
 	width: 150px;
 	margin: auto;
 	border-radius: 10px;
-
-
+	position: relative;
 }
 
 .dropdown {
 	position: relative;
 	display: inline-block;
-	align-content: center;
-	/* position: absolute; */
+
 	right: 0;
-
-
 }
 
 .dropdown-content {
@@ -316,6 +346,7 @@ tr:hover {
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
+	border-radius: 10px;
 }
 
 .dropdown-content a {
@@ -326,7 +357,7 @@ tr:hover {
 }
 
 .dropdown-content a:hover {
-	background-color: #f1f1f1
+	background-color: #f1f1f1;
 }
 
 .dropdown:hover .dropdown-content {
@@ -334,6 +365,7 @@ tr:hover {
 }
 
 .dropdown:hover .dropbtn {
-	background-color: #3e8e41;
+	background-color: #f4f6ff;
 	border-radius: 10px;
+	/* color: white; */
 }
